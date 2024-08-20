@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+.button-group button:nth-child(2),
+.button-group button:nth-child(3) {
+  @apply bg-slate-200 text-black;
+}
